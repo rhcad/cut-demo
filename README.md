@@ -5,7 +5,7 @@
 [![Travis][travis_img]][travis]
 
 [travis]: https://travis-ci.org/rhcad/cut-demo
-[travis_img]: https://travis-ci.org/rhcad/cut-demo.svg?branch=master
+[travis_img]: https://travis-ci.org/rhcad/cut-demo.svg?branch=test-ci
 
 [在线预览](http://ggbstudy.top/cut/)
 
