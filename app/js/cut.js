@@ -375,13 +375,12 @@
       var ret = null, dist = 1e5, d, i, el;
       var isInRect = function(el, tol) {
         var box = el.getBBox();
-        return box && pt.x > box.x - tol &&
-          pt.y > box.y - tol &&
-          pt.x < box.x + box.width + tol &&
+        return box && pt.x > box.x - tol
+          && pt.y > box.y - tol && pt.x < box.x + box.width + tol &&
           pt.y < box.y + box.height + tol;
       };
 
-      if (state.edit && isInRect(state.edit, 5)) {
+      if (state.edit && isInRect(state.edit, .5)) {
         return state.edit;
       }
       if (state.hover && isInRect(state.hover, 5)) {
